@@ -4,4 +4,4 @@ import pandas as pd
 
 
 #엑셀 파일 읽어오기
-pd.read_excel('downloads.xlsx')
+pd.read_excel('download_links.xlsx')
