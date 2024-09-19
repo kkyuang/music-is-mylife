@@ -65,6 +65,7 @@ class downconv:
     def convertToM4A(files):
         print(files)
         for f in files:
+            print(f)
             downconv.convert_mp3_to_m4a_using_ffmpeg(f, f[0:-3] + 'm4a')
 
     @staticmethod
